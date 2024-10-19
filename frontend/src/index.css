@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-text {
+    background: linear-gradient(90deg, black, #ff007f, #00f); /* Градиент: черный -> розовый -> синий */
+    -webkit-background-clip: text; /* Обрезка фона по тексту */
+    -webkit-text-fill-color: transparent; /* Прозрачный цвет текста */
+    background-clip: text; /* Обрезка фона по тексту */
+    color: transparent; /* Прозрачный цвет текста */
+}
